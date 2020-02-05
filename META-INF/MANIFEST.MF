@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: tasks_auto
+Bundle-SymbolicName: tasks_auto
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: tasks_auto.jar,
+ Rahul/Downloads/testng-6.14.2.jar
+Export-Package: pageObjects,
+ testCases,
+ utilities
