@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="tasks_auto(failed)">
+    <classes>
+      <class name="testCases.MakeMyTrip">
+        <methods>
+          <include name="close"/>
+          <include name="abc"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.MakeMyTrip -->
+    </classes>
+  </test> <!-- tasks_auto(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
